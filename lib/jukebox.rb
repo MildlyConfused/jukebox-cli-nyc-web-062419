@@ -16,14 +16,14 @@ def help
 end
 
 
-def list(songs)
+def list($songs)
   songs.each_with_index do |song, id|
     puts "#{(id+1).to_s}. #{song}"
   end
 end
 
 
-def play(songs)
+def play($songs)
   puts "Please enter a song name or number:"
   input = gets.chomp 
   songs.each_with_index do |song, id|
