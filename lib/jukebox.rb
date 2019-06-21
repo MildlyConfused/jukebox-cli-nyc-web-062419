@@ -17,7 +17,7 @@ end
 
 
 def list
-  puts songs
+  puts songs.inspect
 end
 
 
