@@ -16,4 +16,9 @@ def help
 end
 
 
-help
+def list
+  puts songs
+end
+
+
+list
