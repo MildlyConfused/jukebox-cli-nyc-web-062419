@@ -29,7 +29,7 @@ def play(songs)
   songs.each_with_index do |song, id|
     if song == input || id == input
       puts "Playing <#{song}>"
-      
+      return
   end
   
 end
