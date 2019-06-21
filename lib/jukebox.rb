@@ -55,7 +55,6 @@ def run
     when "exit"
       exit_jukebox
     end
-    
   end
   puts "Please enter a command:"
 end
