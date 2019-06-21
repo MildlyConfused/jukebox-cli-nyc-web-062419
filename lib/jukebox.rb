@@ -50,6 +50,10 @@ def run
     help
   when "list"
     list($songs)
+  when "play"
+    play($songs)
+  when "exit"
+    exit_jukebox
   end
 end
 
