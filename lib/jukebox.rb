@@ -30,6 +30,7 @@ def play(songs)
     if song == input || id == input
       puts "Playing <#{song}>"
       return
+    end
   end
   puts "Invalid input, please try again""
 end
