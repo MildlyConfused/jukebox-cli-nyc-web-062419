@@ -23,8 +23,9 @@ def list(songs)
 end
 
 
-def exit(input)
+def exit_jukebox(input)
   if input == "exit"
+    puts "Goodbye"
   
 end
 
