@@ -29,4 +29,4 @@ def exit_jukebox(input)
   end
 end
 
-exit(input)
+exit_jukebox(input)
