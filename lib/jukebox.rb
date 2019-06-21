@@ -23,9 +23,12 @@ def list(songs)
 end
 
 
-def exit_jukebox(input)
-  if input == "exit"
-    puts "Goodbye"
-  end
+def play(songs)
+  puts "Please enter a song name or number:"
+  input = gets.chomp
 end
+
+
+
+play(songs)
 
