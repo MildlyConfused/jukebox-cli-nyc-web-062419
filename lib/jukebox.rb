@@ -18,7 +18,7 @@ end
 
 def list(songs)
   songs.each_with_index do |song, id|
-    puts "#{(id+1).to_s}"
+    puts "#{(id+1).to_s}. #{song}"
   end
 end
 
