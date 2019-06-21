@@ -44,7 +44,7 @@ end
 def run
   help
   while true 
-    input = gets.chomp
+      input = gets.chomp
   case input
   when "help"
     help
