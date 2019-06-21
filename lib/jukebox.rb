@@ -44,6 +44,7 @@ end
 def run
   help
   while true 
+    puts "Please enter a command:"
     input = gets.chomp
     case input
     when "help"
@@ -56,7 +57,6 @@ def run
       exit_jukebox
     end
   end
-  puts "Please enter a command:"
 end
 
 
