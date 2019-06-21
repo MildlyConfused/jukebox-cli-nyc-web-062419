@@ -49,7 +49,7 @@ def run
   when "help"
     help
   when "list"
-    list(songs)
+    list($songs)
   end
 end
 
