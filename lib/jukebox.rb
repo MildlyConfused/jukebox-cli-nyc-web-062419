@@ -23,4 +23,9 @@ def list(songs)
 end
 
 
-list(songs)
+def exit(input)
+  if input == "exit"
+  
+end
+
+exit(input)
