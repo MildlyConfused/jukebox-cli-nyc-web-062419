@@ -41,7 +41,7 @@ def exit_jukebox
 end
 
 
-def run
+def run(songs)
   help
   while true 
     puts "Please enter a command:"
@@ -50,9 +50,9 @@ def run
     when "help"
       help
     when "list"
-      list($songs)
+      list(songs)
     when "play"
-      play($songs)
+      play(songs)
     when "exit"
       exit_jukebox
     end
@@ -60,4 +60,4 @@ def run
 end
 
 
-run
+run(songs)
