@@ -11,4 +11,6 @@ songs = [
 ]
 
 
-
+def help 
+  puts 
+end
