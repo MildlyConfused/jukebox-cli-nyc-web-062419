@@ -26,7 +26,6 @@ end
 def exit_jukebox(input)
   if input == "exit"
     puts "Goodbye"
-  
 end
 
 exit(input)
