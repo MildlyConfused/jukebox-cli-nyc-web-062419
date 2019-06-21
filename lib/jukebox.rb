@@ -16,9 +16,9 @@ def help
 end
 
 
-def list
+def list(songs)
   puts songs.inspect
 end
 
 
-list
+list(songs)
