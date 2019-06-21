@@ -44,17 +44,17 @@ end
 def run
   help
   while true 
-      input = gets.chomp
-  case input
-  when "help"
-    help
-  when "list"
-    list($songs)
-  when "play"
-    play($songs)
-  when "exit"
-    exit_jukebox
-  end
+    input = gets.chomp
+    case input
+    when "help"
+      help
+    when "list"
+      list($songs)
+    when "play"
+      play($songs)
+    when "exit"
+      exit_jukebox
+    end
     
   end
   puts "Please enter a command:"
